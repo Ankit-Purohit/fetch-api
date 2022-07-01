@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fecth api</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div>
+      
+    </div>
+    <div class="user-profile">
+      <div class="profile_top">
+        <img id="ima" src="Sample_User_Icon.png" width="100px" />
+        <div class="profile_info">
+          <span id="name">Name</span>
+          <span>|</span>
+          <span id="gender">Gender</span>
+        </div>
+      </div>
+      <div class="profile_bottom">
+        <div class="profile_info">
+          <span class="material-icons"> email</span>
+          <span id="email">Email</span>
+        </div>
+        <div class="profile_info">
+          <span class="material-icons"> call </span>
+          <span id="phone">Phone</span>
+        </div>
+        <div class="profile_info">
+          <span class="material-icons"> location_on </span>
+          <span id="country">Country</span>
+        </div>
+      </div>
+
+      <div class="btn">
+        <button onclick="get_user()">New User</button>
+      </div>
+
+    </div>
+    
+
+  </body>
+</html>
